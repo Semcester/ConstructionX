@@ -67,6 +67,7 @@ const Service = () => {
                       width="50"
                       height="50"
                       className="items-center"
+                      alt="Construction"
                     />
                     <h1 className="text-center text-xl">Construction</h1>
                   </div>
@@ -80,6 +81,7 @@ const Service = () => {
                       width="50"
                       height="50"
                       className="items-center"
+                      alt="Plan"
                     />
                     <h1 className="text-center text-xl">Project Development</h1>
                   </div>
@@ -93,6 +95,7 @@ const Service = () => {
                       width="50"
                       height="50"
                       className="items-center"
+                      alt="Interior"
                     />
                     <h1 className="text-center text-xl">Interior Design</h1>
                   </div>
@@ -106,6 +109,7 @@ const Service = () => {
                       width="50"
                       height="50"
                       className="items-center"
+                      alt="Paint"
                     />
                     <h1 className="text-center text-xl">Repairs</h1>
                   </div>

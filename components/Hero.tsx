@@ -30,7 +30,12 @@ const Hero = () => {
   return (
     <div className="flex flex-warp items-center justify-center">
       <div className="relative  w-full h-screen bg-cover brightness-50">
-        <Image src={heroImages[currentI]} width="1920" height="920" />
+        <Image
+          src={heroImages[currentI]}
+          width="1920"
+          height="920"
+          alt="hero"
+        />
       </div>
       <div className="absolute flex flex-warp justify-between w-full px-10">
         <div>
@@ -38,7 +43,7 @@ const Hero = () => {
             onClick={handlePrev}
             className={currentI === 0 ? "opacity-50" : "opacity-100"}
           >
-            <Image src={Prev} width="45" height="45" />
+            <Image src={Prev} width="45" height="45" alt="Preview" />
           </button>
         </div>
         <div>
@@ -46,7 +51,7 @@ const Hero = () => {
             onClick={handleNext}
             className={currentI === 2 ? "opacity-50" : "opacity-100"}
           >
-            <Image src={Next} width="45" height="45" />
+            <Image src={Next} width="45" height="45" alt="Next" />
           </button>
         </div>
       </div>

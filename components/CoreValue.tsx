@@ -24,7 +24,7 @@ const CoreValue = () => {
           width="70%"
           height="300px"
           playing
-          playIcon={<Image src={Play} width="150" height="150" />}
+          playIcon={<Image src={Play} width="150" height="150" alt="Play" />}
           light="https://images.pexels.com/photos/323705/pexels-photo-323705.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
         />
       </div>
@@ -40,7 +40,7 @@ const CoreValue = () => {
         </div>
         <div className="flex flex-wrap space-x-36 mt-10">
           <div className=" grid place-items-center ">
-            <Image src={Like} width="70" height="70" />
+            <Image src={Like} width="70" height="70" alt="Like" />
             <div className="mt-6 flex flex-col items-center space-y-2">
               <h3 className="font-semibold">Quality</h3>
               <p className="w-60 text-center font-light">
@@ -51,7 +51,7 @@ const CoreValue = () => {
           </div>
           <div className="h-40 w-1 bg-gray-600 opacity-30"></div>
           <div className=" grid place-items-center">
-            <Image src={Safety} width="70" height="70" />
+            <Image src={Safety} width="70" height="70" alt="Safety" />
             <div className="mt-6 flex flex-col items-center space-y-2">
               <h3 className="font-semibold">Safety</h3>
               <p className="w-60 text-center font-light">
@@ -62,7 +62,7 @@ const CoreValue = () => {
           </div>
           <div className="h-40 w-1 bg-gray-600 opacity-30"></div>
           <div className=" grid place-items-center">
-            <Image src={Comfort} width="70" height="70" />
+            <Image src={Comfort} width="70" height="70" alt="Comfort" />
             <div className="mt-6 flex flex-col items-center space-y-2">
               <h3 className="font-semibold">Comfort</h3>
               <p className="w-60 text-center font-light">

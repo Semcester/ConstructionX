@@ -13,7 +13,7 @@ const Header = () => {
       <nav className="relative px-2 mobile:px-4 py-2.5 z-30 sticky top-0 bg-white ">
         <div className="container flex flex-wrap justify-between items-center mx-auto mt-5">
           <a href="#" className="">
-            <Image src={Logo} width="130" height="22" />
+            <Image src={Logo} width="130" height="22" alt="Logo" />
           </a>
           <button
             data-collapse-toggle="mobile-menu"
@@ -117,14 +117,14 @@ const Header = () => {
           </div>
           <div className="hidden laptop:flex items-center space-x-4">
             <a className="flex space-x-2" href="#">
-              <Image src={Cell} width="40" height="40" />
+              <Image src={Cell} width="40" height="40" alt="Phone" />
               <div>
                 <p className="text-left">Call us</p>
                 <p>(405)555-0128</p>
               </div>
             </a>
             <a className="flex space-x-2" href="#">
-              <Image src={Chat} width="40" height="40" />
+              <Image src={Chat} width="40" height="40" alt="Chat" />
               <div>
                 <p className="text-left">Talk to us</p>
                 <p>hello@ccreatex.com</p>
