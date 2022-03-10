@@ -20,6 +20,9 @@ module.exports = {
       backgroundImage: {
         firstHero: "url('../public/images/firstHeroBg.png')",
         serviceBg1: "url('../public/images/services/interior.png')",
+        const: "url('../public/images/services/const.png')",
+        project: "url('../public/images/services/project.png')",
+        repair: "url('../public/images/services/repair.png')",
       },
       backgroundColor: {
         brand: "#FF5A30",

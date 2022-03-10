@@ -5,6 +5,7 @@ import Construction from "../public/images/icons/ic-construction.svg"
 import Plan from "../public/images/icons/ic-plan.svg"
 import Interior from "../public/images/icons/ic-pantone.svg"
 import Painting from "../public/images/icons/ic-painting.svg"
+import Const from "../public/images/services/const.jpg"
 
 const Service = () => {
   return (
@@ -60,7 +61,7 @@ const Service = () => {
             </p>
             <div className="flex space-x-10 mt-16">
               <button>
-                <div className="w-64 h-64 bg-white shadow-md rounded-md flex items-center justify-center hover:bg-serviceBg1 hover:text-white transition ease-linear duration-300">
+                <div className="w-64 h-64 bg-white shadow-md rounded-md flex items-center justify-center hover:bg-const hover:text-white transition ease-linear duration-300">
                   <div className="text-center">
                     <Image
                       src={Construction}
@@ -74,7 +75,7 @@ const Service = () => {
                 </div>
               </button>
               <button>
-                <div className="w-64 h-64 bg-white shadow-md rounded-md flex items-center justify-center hover:bg-serviceBg1 hover:text-white transition ease-linear duration-300">
+                <div className="w-64 h-64 bg-white shadow-md rounded-md flex items-center justify-center hover:bg-project hover:text-white transition ease-linear duration-300">
                   <div className="text-center">
                     <Image
                       src={Plan}
@@ -102,7 +103,7 @@ const Service = () => {
                 </div>
               </button>
               <button>
-                <div className="w-64 h-64 bg-white shadow-md rounded-md flex items-center justify-center hover:bg-serviceBg1 hover:text-white transition ease-linear duration-300">
+                <div className="w-64 h-64 bg-white shadow-md rounded-md flex items-center justify-center hover:bg-repair hover:text-white transition ease-linear duration-300">
                   <div className="text-center">
                     <Image
                       src={Painting}
