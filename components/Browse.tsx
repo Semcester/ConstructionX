@@ -8,44 +8,44 @@ const Browse = () => {
   return (
     <>
       <div>
-        <div className="flex items-center justify-center m-32">
-          <div className="block">
-            <div className="text-3xl w-full flex-warp">
-              Browse our selected projects <br />
-              and learn more about our work
+        <div className="mt-16">
+          <div className="text-4xl font-bold flex flex-wrap ml-96 mb-8">
+            Browse our selected projects
+            <br /> and learn more about our work
+          </div>
+          <div className="flex space-x-32 items-center justify-center">
+            <div className=" bg-redFinger bg-no-repeat bg-fit shadow-xl w-72 h-96 group bg-fit hover:scale-105 transition ease-linear duration-200  hover:shadow-xl">
+              <div className="card">
+                <div className="block bg-white w-72 text-center mt-4 h-16 group-hover:h-40 transition easy-in duration-2000">
+                  <div className="mt-72 px-4 py-2 text-xl">
+                    Red Finger Building
+                  </div>
+                  <p className="font-light">Business Centers</p>
+                  <button className="bg-brand text-white px-2 py-2 border-2 border-orange-600 w-32 group-hover:visible mt-4 invisible  ">
+                    View Project
+                  </button>
+                </div>
+              </div>
             </div>
-            <div className="flex flex-wrap space-x-16 mt-10 rounded-md">
-              <div className="w-96 h-full bg-white-400 shadow-xl group ">
-                <Image
-                  src={RedFinger}
-                  width="390"
-                  height="345"
-                  alt="redFinger"
-                />
-                <div className=" grid justify-items-center mb-10 mt-4">
-                  <span className="text-xl">Red Finger Building</span>
-                  <span className="text-sm font-light">Business Centers</span>
-                  <button className="hidden group-hover:block transition ease-in-out duration-500 hover:bg-brand hover:text-white text-brand px-2 py-2 border-2 border-orange-600 w-32 mt-4">
+            <div className=" bg-cubes bg-no-repeat bg-fit shadow-xl w-72 h-96 group mr-6 bg-fit hover:scale-105 transition ease-linear duration-200 hover:shadow-xl">
+              <div className="card">
+                <div className="block bg-white w-72 text-center mt-4 h-16 group-hover:h-40 transition easy-in duration-2000">
+                  <div className="mt-72 px-4 py-2 text-xl">Cubes Building</div>
+                  <p className="font-light">Business Centers</p>
+                  <button className="bg-brand text-white px-2 py-2 border-2 border-orange-600 w-32 group-hover:visible mt-4 invisible  ">
                     View Project
                   </button>
                 </div>
               </div>
-              <div className="w-96 h-full bg-white-400 shadow-xl group">
-                <Image src={Cubes} width="390" height="345" alt="redFinger" />
-                <div className="grid justify-items-center mb-10 mt-4">
-                  <span className="text-xl">Red Finger Building</span>
-                  <span className="text-sm font-light">Business Centers</span>
-                  <button className="hidden group-hover:block hover:bg-brand hover:text-white transition ease-in-out duration-500 text-brand px-2 py-2 border-2 border-orange-600 w-32 mt-4">
-                    View Project
-                  </button>
-                </div>
-              </div>
-              <div className="w-96 h-full bg-white-400 shadow-xl group">
-                <Image src={Pencil} width="390" height="345" alt="redFinger" />
-                <div className="grid justify-items-center mb-10 mt-4">
-                  <span className="text-xl">Red Finger Building</span>
-                  <span className="text-sm font-light">Business Centers</span>
-                  <button className="hidden group-hover:block transition ease-in-out duration-500 text-brand hover:bg-brand hover:text-white px-2 py-2 border-2 border-orange-600 w-32 mt-4">
+            </div>
+            <div className=" bg-pencil bg-no-repeat bg-fit shadow-xl w-72 h-96 group hover:scale-105 transition ease-linear duration-200 hover:shadow-xl">
+              <div className="card">
+                <div className="block bg-white w-72 text-center mt-4 h-16 group-hover:h-40 transition easy-in duration-2000">
+                  <div className="mt-72 px-4 py-2 text-xl">
+                    The Pencil Building
+                  </div>
+                  <p className="font-light">Business Centers</p>
+                  <button className="bg-brand text-white px-2 py-2 border-2 border-orange-600 w-32 group-hover:visible mt-4 invisible  ">
                     View Project
                   </button>
                 </div>
@@ -53,12 +53,12 @@ const Browse = () => {
             </div>
           </div>
         </div>
-      </div>
-      <div className="flex items-center justify-center mt-16 space-x-16">
-        <div className="text-3xl">Explore all our works</div>
-        <button className="px-4 py-4 border-2 w-60 text-white bg-orange-600 rounded-md">
-          VIEW PORFOLIO
-        </button>
+        <div className="flex justify-center items-center space-x-10 mt-32">
+          <div className="text-3xl">Explore all our works</div>
+          <button className="bg-brand text-white px-2 py-2 border-2 border-orange-600 w-32 ">
+            View Project
+          </button>
+        </div>
       </div>
     </>
   )

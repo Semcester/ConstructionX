@@ -4,6 +4,7 @@ import CoreValue from "./CoreValue"
 import Header from "./Header"
 import Hero from "./Hero"
 import Service from "./Service"
+import Support from "./Support"
 
 const Layouts = () => {
   return (
@@ -13,6 +14,7 @@ const Layouts = () => {
       <CoreValue />
       <Service />
       <Browse />
+      <Support />
     </div>
   )
 }

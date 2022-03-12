@@ -9,7 +9,7 @@ import Comfort from "../public/images/icons/ic-slippers.svg"
 const CoreValue = () => {
   return (
     <>
-      <div className="grid place-items-center mb-10 ">
+      <div className="grid place-items-center mb-10 mt-16">
         <div className="text-4xl font-bold">
           <h3>We are Createx Construction Bureau </h3>
         </div>

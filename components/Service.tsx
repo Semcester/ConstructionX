@@ -119,7 +119,7 @@ const Service = () => {
             </div>
             <div className="text-center mt-16 flex items-center justify-center space-x-6">
               <h1 className="text-2xl">Learn more about our services</h1>
-              <button className=" py-2 px-2 top-4 align-bottom rounded-sm bg-brand  text-white hover:bg-white hover:text-black">
+              <button className=" py-2 px-2 top-4 align-bottom rounded-md bg-brand  text-white hover:bg-white hover:text-black hover:border-2 border-orange-600 transition ease-linear duration-100 hover:shadow-md">
                 View services
               </button>
             </div>
