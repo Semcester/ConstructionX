@@ -27,6 +27,7 @@ module.exports = {
       backgroundColor: {
         brand: "#FF5A30",
       },
+      display: ["group-hover"],
     },
     fontFamily: {
       league: ["League Spartan", "sans-serif"],
