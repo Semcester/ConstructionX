@@ -59,7 +59,7 @@ const Support = () => {
   }
 
   return (
-    <div className="mt-20 bg-gray-100">
+    <div className="mt-20 bg-gray-100 h-934">
       <div className="mb-32">
         <div className="text-4xl flex justify-center">
           <h1 className="mt-16">Supported by 12+ partners</h1>
@@ -125,8 +125,8 @@ const Support = () => {
           <div>
             <Image
               src={Stage}
-              width="495"
-              height="550"
+              width="630"
+              height="700"
               alt="Stage"
               className="absolute"
             />

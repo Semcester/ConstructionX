@@ -1,6 +1,9 @@
 import React from "react"
+import Application from "./Application"
 import Browse from "./Browse"
 import CoreValue from "./CoreValue"
+import Facts from "./Facts"
+import Footer from "./Footer"
 import Header from "./Header"
 import Hero from "./Hero"
 import Service from "./Service"
@@ -15,6 +18,9 @@ const Layouts = () => {
       <Service />
       <Browse />
       <Support />
+      <Facts />
+      <Application />
+      <Footer />
     </div>
   )
 }

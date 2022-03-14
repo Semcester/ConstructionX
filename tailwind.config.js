@@ -32,11 +32,29 @@ module.exports = {
         Invest4: "url('../public/images/sponsors/4.png')",
         Invest5: "url('../public/images/sponsors/5.png')",
         Invest6: "url('../public/images/sponsors/6.png')",
+        facts: "url('../public/images/facts/facts.png')",
+        application: "url('../public/images/application/BG.png')",
       },
       backgroundColor: {
         brand: "#FF5A30",
+        footer: "#1E212C",
       },
       display: ["group-hover"],
+      height: {
+        934: "58rem",
+        666: "42rem",
+      },
+      width: {
+        495: "31rem",
+        1024: "64rem",
+        1920: "120rem",
+      },
+      borderColor: {
+        brand: "#FF5A30",
+      },
+      accentColor: {
+        brand: "#FF5A30",
+      },
     },
     fontFamily: {
       league: ["League Spartan", "sans-serif"],

@@ -28,8 +28,8 @@ const Hero = () => {
     }
   }
   return (
-    <div className="flex flex-warp items-center justify-center">
-      <div className="relative  w-full h-screen bg-cover brightness-50">
+    <div className="flex flex-warp items-center justify-center laptop:w-screen">
+      <div className="relative brightness-50 laptop:w-1920">
         <Image
           src={heroImages[currentI]}
           width="1920"
@@ -55,7 +55,7 @@ const Hero = () => {
           </button>
         </div>
       </div>
-      <div className="absolute block flex-wrap left-64 top-96">
+      <div className="absolute block flex-wrap left-64 top-96 laptop:top-44 laptop:left-28">
         <div className="text-7xl text-white align-top">
           CREATE<span className="text-brand font-bold">X</span>
           <br /> CONSTRUCTION
