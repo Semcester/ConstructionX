@@ -10,7 +10,7 @@ const Header = () => {
 
   return (
     <>
-      <nav className="px-2 mobile:px-4 py-2.5 z-30 sticky top-0 bg-white ml-0 laptop:ml-8 laptop:w-full">
+      <nav className="px-2 mobile:px-4 py-2.5 z-30 sticky top-0 bg-white ">
         <div className="container flex flex-wrap justify-between items-center mx-auto mt-5">
           <a href="#" className="">
             <Image src={Logo} width="130" height="22" alt="Logo" />
@@ -18,7 +18,7 @@ const Header = () => {
           <button
             data-collapse-toggle="mobile-menu"
             type="button"
-            className="inline-flex items-center p-2 ml-3 text-sm tablet:ml-auto text-gray-500 rounded-lg laptop:hidden hover:bg-brand focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+            className="inline-flex items-center p-2 ml-3 text-sm tablet:ml-auto text-gray-500 rounded-lg laptop:hidden hover:bg-brand focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600 mobile:ml-44 mobileS:ml-44 mobilexs:ml-32"
             aria-controls="mobile-menu-2"
             aria-expanded="false"
             onClick={() => setIsOpen(!isOpen)}
@@ -55,7 +55,7 @@ const Header = () => {
                 <li>
                   <a
                     href="#"
-                    className="block py-2 pr-4 pl-3 text-white  rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white"
+                    className="block py-2 pr-4 pl-3 text-gray-700  rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white"
                     aria-current="page"
                   >
                     About Us

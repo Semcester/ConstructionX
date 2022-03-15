@@ -20,7 +20,7 @@ const Footer = () => {
           <div className="flex items-center space-x-8 mb-10">
             <Image src={Logo} width="130" height="22" alt="right" />
             <div className="flex flex-warp -space-x-24">
-              <button>
+              <button className="">
                 <Image src={WhatsApp} width="130" height="22" alt="right" />
               </button>
               <button>

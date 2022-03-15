@@ -11,10 +11,13 @@ module.exports = {
       black: "#1E212C",
     },
     screens: {
+      mobilexs: "320px",
+      mobileS: "375px",
       mobile: "390px",
       tablet: "768px",
       laptop: "1024px",
       desktop: "1280px",
+      wideDesktop: "1440px",
     },
     extend: {
       backgroundImage: {

@@ -38,7 +38,7 @@ const CoreValue = () => {
             Our mission is to set the highest standards for construction sphere.
           </h3>
         </div>
-        <div className="flex flex-wrap space-x-36 mt-10">
+        <div className=" space-x-36 mt-10 laptop:flex laptop:space-x-5 tablet:space-x-2 wideDesktop:flex wideDesktop:space-x-32 mobile:block mobile:items-center">
           <div className=" grid place-items-center ">
             <Image src={Like} width="70" height="70" alt="Like" />
             <div className="mt-6 flex flex-col items-center space-y-2">
@@ -49,7 +49,6 @@ const CoreValue = () => {
               </p>
             </div>
           </div>
-          <div className="h-40 w-1 bg-gray-600 opacity-30"></div>
           <div className=" grid place-items-center">
             <Image src={Safety} width="70" height="70" alt="Safety" />
             <div className="mt-6 flex flex-col items-center space-y-2">
@@ -60,7 +59,6 @@ const CoreValue = () => {
               </p>
             </div>
           </div>
-          <div className="h-40 w-1 bg-gray-600 opacity-30"></div>
           <div className=" grid place-items-center">
             <Image src={Comfort} width="70" height="70" alt="Comfort" />
             <div className="mt-6 flex flex-col items-center space-y-2">
@@ -72,6 +70,7 @@ const CoreValue = () => {
             </div>
           </div>
         </div>
+        <div className=""></div>
       </div>
     </>
   )
