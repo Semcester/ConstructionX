@@ -20,7 +20,7 @@ const Layouts = () => {
       <Support />
       <Facts />
       <Application />
-      {/* <Footer /> */}
+      <Footer />
     </div>
   )
 }
