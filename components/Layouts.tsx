@@ -18,9 +18,9 @@ const Layouts = () => {
       <Service />
       <Browse />
       <Support />
-      {/* <Facts />
+      <Facts />
       <Application />
-      <Footer />   */}
+      {/* <Footer /> */}
     </div>
   )
 }

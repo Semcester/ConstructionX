@@ -37,6 +37,7 @@ module.exports = {
         Invest6: "url('../public/images/sponsors/6.png')",
         facts: "url('../public/images/facts/facts.png')",
         application: "url('../public/images/application/BG.png')",
+        support: "url('../public/images/support/support.png')",
       },
       backgroundColor: {
         brand: "#FF5A30",
@@ -46,6 +47,9 @@ module.exports = {
       height: {
         934: "58rem",
         666: "42rem",
+        700: "44rem",
+        540: "34rem",
+        432: "27rem",
       },
       width: {
         495: "31rem",

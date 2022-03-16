@@ -59,12 +59,12 @@ const Support = () => {
   }
 
   return (
-    <div className="mt-20 bg-gray-100 h-934">
-      <div className="mb-32">
+    <div className="mt-20 bg-gray-100 wideDesktop:h-666 block">
+      <div className="mb-16">
         <div className="text-4xl flex justify-center">
           <h1 className="mt-16">Supported by 12+ partners</h1>
         </div>
-        <div className="flex items-center justify-center flex-warp space-x-32 mt-8">
+        <div className="flex items-center justify-center flex-warp wideDesktop:space-x-32 laptop:space-x-10 tablet:space-x-5 tablet:w-full mt-8">
           <div>
             <Image src={Invest1} width="120" height="64" alt="Safety" />
           </div>
@@ -91,46 +91,38 @@ const Support = () => {
           </div>
         </div>
       </div>
-      <div className="grid justify-center items-center w-3/5 h-60 mx-auto">
-        <div className="flex flex-warp justify-between space-x-32">
-          <div className="block ">
-            <div className="text-4xl mb-14">What our clients are saying</div>
+      <div className="flex wideDesktop:justify-center wideDesktop:space-x-16 wideDesktop:w-full laptop:space-x-28 laptop:w-full laptop:justify-center tablet:justify-center tablet:max-w-full tablet:space-x-16">
+        <div className="block space-y-6 wideDesktop:w-2/5 wideDesktop:max-h-60 laptop:w-96 tablet:w-60">
+          <div className="wideDesktop:text-4xl laptop:text-3xl tablet:text-2xl">
+            What our clients are saying
+          </div>
+          <div className="">
             <Image
               src={persons[currentPerson].img}
-              width="80 "
-              height="80 "
-              alt="Avatar"
+              width="72"
+              height="72"
+              alt=""
               className="rounded-full"
             />
-            <div className="w-96 mt-4 font-normal">
-              {persons[currentPerson].comment}
+          </div>
+          <div className="font-light">{persons[currentPerson].comment}</div>
+          <div className="flex items-center justify-between font-light">
+            <div className="block">
+              <div className="font-semibold">{persons[currentPerson].name}</div>
+              <div className="">{persons[currentPerson].company}</div>
             </div>
-            <div className="flex">
-              <div className="block">
-                <div className="w-96 mt-4">{persons[currentPerson].name}</div>
-                <div className="w-96 mt-1 font-light">
-                  {persons[currentPerson].company}
-                </div>
-              </div>
-              <div className="flex justify-center items-center space-x-4">
-                <button onClick={handlePrev}>
-                  <Image src={Left} width="25" height="25" alt="left" />
-                </button>
-                <button onClick={handleNext}>
-                  <Image src={Right} width="25" height="25" alt="right" />
-                </button>
-              </div>
+            <div className="flex items-center space-x-5 ml-6">
+              <button onClick={handlePrev}>
+                <Image src={Left} width="30" height="30" alt="Left" />
+              </button>
+              <button onClick={handleNext}>
+                <Image src={Right} width="30" height="30" alt="Left" />
+              </button>
             </div>
           </div>
-          <div>
-            <Image
-              src={Stage}
-              width="630"
-              height="700"
-              alt="Stage"
-              className="absolute"
-            />
-          </div>
+        </div>
+        <div className="wideDesktop:w-2/5 wideDesktop:max-h-60 laptop:max-w-sm tablet:w-96">
+          <Image src={Stage} width="495" height="550" alt="Support" />
         </div>
       </div>
     </div>

@@ -55,7 +55,7 @@ const Browse = () => {
             </div>
           </div>
         </div>
-        <div className="flex justify-center items-center space-x-10 mt-52 ">
+        <div className="flex justify-center items-center space-x-10 mt-60 ">
           <div className="text-3xl">Explore all our works</div>
           <button className="bg-brand text-white px-2 py-2 border-2 border-orange-600 w-32 ">
             View Project

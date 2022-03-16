@@ -18,7 +18,7 @@ const Facts = () => {
           <div className="text-center text-5xl font-bold">
             Some facts and figures
           </div>
-          <div className="flex space-x-16 justify-center items-center mt-10 ">
+          <div className="flex space-x-16 justify-center items-center mt-10 wideDesktop:w-full laptop:w-full laptop:ml-0 laptop:items-center tablet:w-4/5 tablet:flex tablet:justify-center tablet:items-center tablet:ml-24">
             <div className="block">
               <Image
                 src={Second}
@@ -62,93 +62,69 @@ const Facts = () => {
           </div>
           <div className="block mt-44">
             <div className="text-center text-5xl font-bold">Recent news</div>
-            <div className="flex justify-center items-center mt-10 space-x-10 h-1/3">
-              <div className="bg-white shadow-xl w-1/3 rounded-md">
-                <Image
-                  src={BuiltOne}
-                  width="705"
-                  height="360"
-                  alt="Stage"
-                  className="absolute"
-                />
-                <div className="ml-4">
-                  <p className="text-left text-xl">
+            <div className="wideDesktop:flex wideDesktop:justify-center mt-10 wideDesktop:space-x-7 wideDesktop:space-y-0 laptop:space-x-7 laptop:w-11/12 laptop:flex laptop:justify-center laptop:ml-10 laptop:space-y-3 tablet:space-y-10 tablet:block">
+              <div className="bg-white shadow-lg wideDesktop:h-540 wideDesktop:ml-0 wideDesktop:w-3/6 laptop:ml-0 tablet:w-2/4 tablet:ml-48 rounded-md">
+                <div>
+                  <Image src={BuiltOne} width="705" height="360" />
+                </div>
+                <div className="texts space-y-3 mt-5 ml-4">
+                  <div className="text-2xl hover:text-brand">
                     How to Build Climate Change-Resilient Infrastructure
-                  </p>
-                  <div className="flex space-x-6 mt-4 ">
-                    <div className="font-light text-sm ">Industry News</div>
-                    <div className="font-light text-sm">June 24, 2020</div>
-                    <div className="font-light text-sm flex space-x-2">
-                      <Image
-                        src={Chat}
-                        width="20"
-                        height="10"
-                        alt="Stage"
-                        className="absolute"
-                      />
-                      <p>4 comments</p>
+                  </div>
+                  <div className="flex items-center space-x-10 ">
+                    <span className="font-light">Industry News</span>
+                    <span className="font-light">June 24, 2020</span>
+                    <div className="font-light flex items-center space-x-3">
+                      <div>
+                        <Image src={Chat} width="16" height="16" />
+                      </div>
+                      <div>4 comments</div>
                     </div>
                   </div>
-                  <div className="mt-4 mb-4">
+                  <div>
                     Ipsum aliquet nisi, hendrerit rhoncus quam tortor, maecenas
-                    faucibus. Tincidunt aliquet sit vel, venenatis nulla.
+                    faucibus. Tincidunt aliquet sit <br /> vel, venenatis nulla.
                     Integer bibendum turpis convallis enim, nibh convallis...
                   </div>
                 </div>
               </div>
-              <div className="block ">
-                <div className="bg-white shadow-xl w-96 rounded-md mb-16">
-                  <Image
-                    src={BuiltTwo}
-                    width="495"
-                    height="156"
-                    alt="Stage"
-                    className="absolute"
-                  />
-                  <div className="ml-4 h-20">
-                    <p className="text-left text-brand text-xl">
+              <div className="block wideDesktop:space-y-8 laptop:space-y-16">
+                <div className="bg-white shadow-lg wideDesktop:w-495 wideDesktop:h-64 wideDesktop:ml-0 laptop:ml-0  tablet:w-96  tablet:ml-48 rounded-md block ">
+                  <div className="img">
+                    <Image src={BuiltTwo} width="495" height="156" />
+                  </div>
+                  <div className="texts space-y-3 mt-3 ml-4 ">
+                    <div className="text-xl hover:text-brand">
                       How Construction Can Help Itself
-                    </p>
-                    <div className="flex space-x-6 mt-4">
-                      <div className="font-light text-sm">Innovation</div>
-                      <div className="font-light text-sm">June 24, 2020</div>
-                      <div className="font-light text-sm flex space-x-2">
-                        <Image
-                          src={Chat}
-                          width="20"
-                          height="10"
-                          alt="Stage"
-                          className="absolute"
-                        />
-                        <p>4 comments</p>
+                    </div>
+                    <div className="flex items-center space-x-8">
+                      <span className="font-light">Innovation</span>
+                      <span className="font-light">June 12, 2020</span>
+                      <div className="font-light flex items-center space-x-3">
+                        <div>
+                          <Image src={Chat} width="16" height="16" />
+                        </div>
+                        <div>No comments</div>
                       </div>
                     </div>
                   </div>
                 </div>
-                <div className="bg-white shadow-xl w-96 rounded-md">
-                  <Image
-                    src={BuiltThree}
-                    width="495"
-                    height="156"
-                    alt="Stage"
-                    className="absolute"
-                  />
-                  <div className="ml-4 h-20">
-                    <p className="text-left text-xl">
+                <div className="bg-white shadow-lg wideDesktop:w-495 wideDesktop:h-64 wideDesktop:ml-0 laptop:ml-0  tablet:w-96  tablet:ml-48 tablet:mt-10 rounded-md">
+                  <div className="img">
+                    <Image src={BuiltThree} width="495" height="156" />
+                  </div>
+                  <div className="texts space-y-3 mt-3 ml-4 ">
+                    <div className="text-xl hover:text-brand">
                       Types of Flooring Materials
-                    </p>
-                    <div className="flex space-x-6  mt-2">
-                      <div className="font-light text-sm">Company News</div>
-                      <div className="font-light text-sm">December 1, 2019</div>
-                      <div className="font-light text-sm flex space-x-2">
-                        <Image
-                          src={Chat}
-                          width="20"
-                          height="10"
-                          alt="Stage"
-                          className="absolute"
-                        />
-                        <p className="">No comments</p>
+                    </div>
+                    <div className="flex items-center space-x-8">
+                      <span className="font-light">Company News</span>
+                      <span className="font-light">December 1, 2019</span>
+                      <div className="font-light flex items-center space-x-3">
+                        <div>
+                          <Image src={Chat} width="16" height="16" />
+                        </div>
+                        <div>No comments</div>
                       </div>
                     </div>
                   </div>
@@ -156,7 +132,7 @@ const Facts = () => {
               </div>
             </div>
             <div className="flex justify-center items-center space-x-10 mt-32">
-              <div className="text-3xl">Explore all our works</div>
+              <div className="text-3xl">Explore all our news posts</div>
               <button className="bg-brand text-white px-2 py-2 border-2 border-orange-600 w-36 rounded-sm">
                 VIEW ALL NEWS
               </button>

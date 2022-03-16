@@ -11,7 +11,7 @@ const Header = () => {
   return (
     <>
       <nav className="px-2 mobile:px-4 py-2.5 z-30 sticky top-0 bg-white ">
-        <div className="container flex flex-wrap justify-between items-center mx-auto mt-5">
+        <div className="container flex flex-wrap wideDesktop:justify-around laptop:justify-between items-center mx-auto mt-5">
           <a href="#" className="">
             <Image src={Logo} width="130" height="22" alt="Logo" />
           </a>
