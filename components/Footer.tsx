@@ -80,7 +80,7 @@ const Footer = () => {
         </div>
         <div className="block mt-3">
           <div className="space-y-4">
-            <div className="text-4xl">Let's say in touch</div>
+            <div className="text-4xl">Let&apos;s say in touch</div>
             <div className="flex items-center">
               <input
                 type="email"
