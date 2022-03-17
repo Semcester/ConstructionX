@@ -63,7 +63,7 @@ const Facts = () => {
           <div className="block mt-44">
             <div className="text-center text-5xl font-bold">Recent news</div>
             <div className="wideDesktop:flex wideDesktop:justify-center mt-10 wideDesktop:space-x-7 wideDesktop:space-y-0 laptop:space-x-7 laptop:w-11/12 laptop:flex laptop:justify-center laptop:ml-10 laptop:space-y-3 tablet:space-y-10 tablet:block">
-              <div className="bg-white shadow-lg wideDesktop:h-540 wideDesktop:ml-0 wideDesktop:w-3/6 laptop:ml-0 tablet:w-2/4 tablet:ml-48 rounded-md">
+              <div className="bg-white shadow-lg wideDesktop:h-540 wideDesktop:ml-10 wideDesktop:w-3/6 wideDesktop:mt-8  laptop:ml-10 laptop:mt-8 tablet:w-4/5 tablet:ml-24 tablet:h-540 rounded-md">
                 <div>
                   <Image src={BuiltOne} width="705" height="360" />
                 </div>
@@ -88,18 +88,18 @@ const Facts = () => {
                   </div>
                 </div>
               </div>
-              <div className="block wideDesktop:space-y-8 laptop:space-y-16">
-                <div className="bg-white shadow-lg wideDesktop:w-495 wideDesktop:h-64 wideDesktop:ml-0 laptop:ml-0  tablet:w-96  tablet:ml-48 rounded-md block ">
+              <div className="block wideDesktop:space-y-8 laptop:space-y-16 ">
+                <div className="bg-white shadow-lg wideDesktop:w-495 wideDesktop:h-72 wideDesktop:ml-0 wideDesktop:mt-0  laptop:w-96 laptop:ml-0 laptop:h-72 laptop:mt-0 tablet:w-4/5  tablet:ml-24 tablet:mt-10 tablet:h-368 rounded-md">
                   <div className="img">
-                    <Image src={BuiltTwo} width="495" height="156" />
+                    <Image src={BuiltTwo} width="650" height="250" />
                   </div>
                   <div className="texts space-y-3 mt-3 ml-4 ">
                     <div className="text-xl hover:text-brand">
-                      How Construction Can Help Itself
+                      Types of Flooring Materials
                     </div>
                     <div className="flex items-center space-x-8">
-                      <span className="font-light">Innovation</span>
-                      <span className="font-light">June 12, 2020</span>
+                      <span className="font-light">Company News</span>
+                      <span className="font-light">December 1, 2019</span>
                       <div className="font-light flex items-center space-x-3">
                         <div>
                           <Image src={Chat} width="16" height="16" />
@@ -109,9 +109,9 @@ const Facts = () => {
                     </div>
                   </div>
                 </div>
-                <div className="bg-white shadow-lg wideDesktop:w-495 wideDesktop:h-64 wideDesktop:ml-0 laptop:ml-0  tablet:w-96  tablet:ml-48 tablet:mt-10 rounded-md">
+                <div className="bg-white shadow-lg wideDesktop:w-495 wideDesktop:h-72 wideDesktop:ml-0 wideDesktop:mt-0 laptop:w-96 laptop:ml-0  laptop:h-72 laptop:mt-0 tablet:w-4/5  tablet:ml-24 tablet:mt-10 tablet:h-368 rounded-md">
                   <div className="img">
-                    <Image src={BuiltThree} width="495" height="156" />
+                    <Image src={BuiltThree} width="650" height="250" />
                   </div>
                   <div className="texts space-y-3 mt-3 ml-4 ">
                     <div className="text-xl hover:text-brand">

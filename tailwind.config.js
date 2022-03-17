@@ -45,6 +45,7 @@ module.exports = {
       },
       display: ["group-hover"],
       height: {
+        368: "23rem",
         934: "58rem",
         666: "42rem",
         700: "44rem",
