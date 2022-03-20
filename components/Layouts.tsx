@@ -12,7 +12,6 @@ import Support from "./Support"
 const Layouts = () => {
   return (
     <div className="font-league">
-      <Header />
       <Hero />
       <CoreValue />
       <Service />
@@ -20,7 +19,6 @@ const Layouts = () => {
       <Support />
       <Facts />
       <Application />
-      <Footer />
     </div>
   )
 }

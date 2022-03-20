@@ -1,20 +1,31 @@
 import React, { useState } from "react"
+import Head from "next/head"
 import Image from "next/image"
+import Link from "next/link"
 import Logo from "../public/images/logo.svg"
 import Cell from "../public/images/icons/cellPhone.svg"
 import Chat from "../public/images/icons/Chat.svg"
-import BG from "../public/images/firstHeroBg.png"
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false)
 
   return (
     <>
+      <Head>
+        <title>Construction</title>
+        <meta name="Construction"></meta>
+        <link
+          href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;500&family=Poppins:wght@300&display=swap"
+          rel="stylesheet"
+        ></link>
+      </Head>
       <nav className="px-2 mobile:px-4 py-2.5 z-30 sticky top-0 bg-white ">
         <div className="container flex flex-wrap wideDesktop:justify-around laptop:justify-between items-center mx-auto mt-5">
-          <a href="#" className="">
-            <Image src={Logo} width="130" height="22" alt="Logo" />
-          </a>
+          <Link href="/">
+            <a href="#" className="">
+              <Image src={Logo} width="130" height="22" alt="Logo" />
+            </a>
+          </Link>
           <button
             data-collapse-toggle="mobile-menu"
             type="button"
@@ -52,15 +63,17 @@ const Header = () => {
           {isOpen && (
             <div className=" w-full md:block md:w-auto z-30" id="mobile-menu">
               <ul className="flex flex-col mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium">
-                <li>
-                  <a
-                    href="#"
-                    className="block py-2 pr-4 pl-3 text-gray-700  rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white"
-                    aria-current="page"
-                  >
-                    About Us
-                  </a>
-                </li>
+                <Link href="/about">
+                  <li>
+                    <a
+                      href="#"
+                      className="block py-2 pr-4 pl-3 text-gray-700  rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white"
+                      aria-current="page"
+                    >
+                      About Us
+                    </a>
+                  </li>
+                </Link>
                 <li>
                   <a
                     href="#"

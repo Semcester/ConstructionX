@@ -1,10 +1,6 @@
 import React from "react"
 import Image from "next/image"
-import WhatsApp from "../public/images/icons/socials/whatsApp.svg"
-import Messenger from "../public/images/icons/socials/Messanger.svg"
-import Facebook from "../public/images/icons/socials/Facebook.svg"
-import Twitter from "../public/images/icons/socials/Twitter.svg"
-import Youtube from "../public/images/icons/socials/Youtube.svg"
+
 import Logo from "../public/images/icons/socials/Logo-white.png"
 import Heart from "../public/images/icons/socials/Heart.svg"
 import Up from "../public/images/icons/up-btn.svg"
@@ -14,7 +10,7 @@ const Footer = () => {
     window.scrollTo(0, 0)
   }
   return (
-    <div className="bg-footer text-white wideDesktop:mt-0 latop:mt-0 tablet:mt-16">
+    <div className="bg-footer text-white wideDesktop:mt-0 latop:mt-0 tablet:mt-16  inset-x-0 bottom-0">
       <div className="flex items-center justify-center wideDesktop:space-x-16 wideDesktop:ml-0 laptop:w-full laptop:space-x-16 laptop:ml-0 tablet:space-x-8 tablet:w-11/12 tablet:ml-8">
         <div className="block mt-10">
           <div className="flex justify-between  mb-10">
@@ -22,7 +18,7 @@ const Footer = () => {
               <Image src={Logo} width="130" height="22" alt="right" />
             </div>
             <div className="flex flex-warp  wideDesktop:-space-x-16 wideDesktop:mr-6 laptop:-space-x-16 laptop:mr-6 tablet:-space-x-14 tablet:mr-6">
-              <div className="youtube">
+              <a href="#" className="youtube">
                 <svg
                   width="24"
                   height="24"
@@ -39,8 +35,8 @@ const Footer = () => {
                     />
                   </g>
                 </svg>
-              </div>
-              <div className="twitter">
+              </a>
+              <a href="#" className="twitter">
                 <svg
                   width="24"
                   height="24"
@@ -55,8 +51,8 @@ const Footer = () => {
                     />
                   </g>
                 </svg>
-              </div>
-              <div className="facebook">
+              </a>
+              <a href="#" className="facebook">
                 <svg
                   width="24"
                   height="24"
@@ -71,8 +67,8 @@ const Footer = () => {
                     />
                   </g>
                 </svg>
-              </div>
-              <div className="messenger">
+              </a>
+              <a href="#" className="messenger">
                 <svg
                   width="24"
                   height="24"
@@ -87,8 +83,8 @@ const Footer = () => {
                     />
                   </g>
                 </svg>
-              </div>
-              <div className="whatsap">
+              </a>
+              <a href="#" className="whatsap">
                 <svg
                   width="24"
                   height="24"
@@ -102,7 +98,7 @@ const Footer = () => {
                     />
                   </g>
                 </svg>
-              </div>
+              </a>
             </div>
           </div>
           <div className="mb-10 font-light">
