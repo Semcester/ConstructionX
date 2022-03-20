@@ -63,17 +63,16 @@ const Header = () => {
           {isOpen && (
             <div className=" w-full md:block md:w-auto z-30" id="mobile-menu">
               <ul className="flex flex-col mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium">
-                <Link href="/about">
-                  <li>
-                    <a
-                      href="#"
-                      className="block py-2 pr-4 pl-3 text-gray-700  rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white"
-                      aria-current="page"
-                    >
-                      About Us
-                    </a>
-                  </li>
-                </Link>
+                <li>
+                  <a
+                    href="#"
+                    className="block py-2 pr-4 pl-3 text-gray-700  rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white"
+                    aria-current="page"
+                  >
+                    About Us
+                  </a>
+                </li>
+
                 <li>
                   <a
                     href="#"

@@ -39,7 +39,6 @@ const persons = [
 
 const Support = () => {
   const [currentPerson, setCurrentPerson] = useState(0)
-  const avatars = [Avatar1, Avatar2, Avatar3]
 
   const handleNext = () => {
     if (currentPerson == 2) {

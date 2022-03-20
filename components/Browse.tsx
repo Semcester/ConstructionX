@@ -1,8 +1,4 @@
 import React from "react"
-import Image from "next/image"
-import RedFinger from "../public/images/browse/redFinger.png"
-import Cubes from "../public/images/browse/cubes.png"
-import Pencil from "../public/images/browse/pencil.png"
 
 const Browse = () => {
   return (

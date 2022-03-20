@@ -5,7 +5,6 @@ import Construction from "../public/images/icons/ic-construction.svg"
 import Plan from "../public/images/icons/ic-plan.svg"
 import Interior from "../public/images/icons/ic-pantone.svg"
 import Painting from "../public/images/icons/ic-painting.svg"
-import Const from "../public/images/services/const.jpg"
 
 const Service = () => {
   return (
