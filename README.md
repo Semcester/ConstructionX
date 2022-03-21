@@ -4,7 +4,7 @@
 
 </p>
 
-<h2 align="center">Landing Page created with Nextjs and Tailwind CSS</h2><br /> 
+<h2 align="center">Landing Page created with Nextjs, Typescript and Tailwind CSS</h2><br /> 
 
  <h2 align="center"><a align="center" href="https://cunstruction-x.vercel.app/">✨Demo</a></h2>
  <br />
