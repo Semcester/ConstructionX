@@ -6,12 +6,13 @@
 
 <h2 align="center">Landing Page created with Nextjs and Tailwind CSS</h2><br /> 
 
-## ✨ <a align="center" href="https://cunstruction-x.vercel.app/">Demo</a>
+ <h2 align="center"><a align="center" href="https://cunstruction-x.vercel.app/">✨Demo</a></h2>
+ <br />
 
 <p align="center">Static landing page can be configure</p>
 
 <p align="center">
-  <img src="https://github.com/Semcester/ConstructionX/issues/1#issue-1174618784">
+  <a align="center" href="https://github.com/Semcester/ConstructionX/issues/1#issue-1174618784">Full Page View</a>
 </p>
 
 
@@ -20,9 +21,12 @@
 
 
 
-## 🚀 Usage
+ <p align=center>🚀 Usage</p>
 
-Make sure you have [nodejs](https://nodejs.org/en/) installed
+<p align="center">Make sure you have [nodejs](https://nodejs.org/en/) installed</p>
+<br />
+
+<p align="center">Support responsive only wide, laptop and tablet size</p>
 
 Just run the following command
 
